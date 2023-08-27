@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import Chessboard from './components/Chessboard';
+import Routes from './Routes';
 
 function App() {
   return (
     <div id="app">
-      <Chessboard/>
+      <Routes />
     </div>
   );
 }
